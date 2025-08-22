@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/solredk",
   linkedin: "https://www.linkedin.com/in/redouane-koullali-b38947303//",
-  gmail: "saadpasta70@gmail.com",
+  gmail: "rkoullali52@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -43,14 +43,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Game Developer",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ i program and design small games"
     )
   ],
 
@@ -150,29 +146,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Games",
+  subtitle: "SOME SMALL GAMES I MADE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/CubersCrusadeLogo.png"),
+      projectName: "Cuberts crusade",
+      projectDesc: "a left right shmup where you will wight robot enemies",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "learn more",
+          url: "https://sites.google.com/view/cubers-crusade/home"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/TheForgottenArea.png"),
+      projectName: "the forgotten area",
+      projectDesc: "a twinstick shooter",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "learn more",
+          url: "https://sites.google.com/view/the-forgotten-area"
         }
       ]
     }
@@ -241,29 +237,6 @@ const achievementSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
 
 // Talks Sections
 
@@ -309,9 +282,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "if you are intrested my inbox is open.",
+  number: "+31 6 25128601",
+  email_address: "rkoullali52@gmail.com"
 };
 
 // Twitter Section
@@ -335,7 +308,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
   talkSection,
   podcastSection,
   contactInfo,
